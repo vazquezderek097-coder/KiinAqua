@@ -139,8 +139,8 @@ function ProductSection() {
           <p className="text-lg">K’iinAqua es un prototipo de potabilización y pasteurización solar que integra captación solar, calentamiento térmico, evaporación, condensación y pasteurización para apoyar el acceso a agua segura.</p>
           <div className="two-cols mt"><PrototypeVisual label="Vista del sistema" /><PrototypeVisual label="Funcionamiento solar" /></div>
           <div className="two-cols mt">
-            <div className="stat"><small>Costo estimado de fabricación</small><strong>{currency(product.costMin)} - {currency(product.costMax)}</strong></div>
-            <div className="stat"><small>Precio de comercialización</small><strong className="cyan">{currency(product.cashPrice)} - {currency(product.maxPrice)}</strong></div>
+            <div className="stat"><small>Planes Disponibles</small><strong>Contado o Mensualidades</strong></div>
+            <div className="stat"><small>Precio estimado de venta</small><strong className="cyan">{currency(product.cashPrice)} - {currency(product.maxPrice)}</strong></div>
           </div>
         </div>
         <Card className="market-card">
